@@ -1,0 +1,46 @@
+html {
+    font-family: Helvetica;
+}
+
+header,
+nav,
+main,
+aside,
+footer,
+div:not(.container) {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+div:not(.container) {
+    background-color: chartreuse;
+}
+
+.inner {
+    background-color: chocolate !important;
+}
+
+header {
+    background-color: teal;
+    min-height: 50px;
+}
+
+nav {
+    min-height: 100px;
+    background-color: tomato;
+}
+
+main {
+    min-height: 256px;
+    background-color: violet;
+}
+
+aside {
+    min-height: 120px;
+    background-color: brown;
+}
+
+footer {
+    min-width: 50px;
+    background-color: cadetblue;
+}
